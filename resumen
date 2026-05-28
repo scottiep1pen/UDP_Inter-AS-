@@ -1,2 +1,7 @@
-Este documento postula que el Protocolo de Datagramas de Usuario (UDP), en su forma sin estado de sesion verificable, no deberia ser ruteable entre Sistemas Autónomos (ASes) en internet publico. El argumento central no es técnico-protocolar sino estructural: UDP sin handshake previo constituye una asimetria de daño sistémica donde el costo del ataque es mínimo para el origen y catastrófico para el destino, violando el principio de reciprocidad que sustenta la neutralidad de red.
-El documento presenta dos líneas argumentales complementarias: (A) la posición maximalista de no-rutabilidad inter-AS de UDP crudo, y (B) la posición de compromiso que exige estado de sesion verificable como condición de rutabilidad, reconociendo que protocolos como QUIC, WireGuard y DTLS ya cumplen con este requisito. Se argumenta que el rol de los IXPs como punto de enforcement es central en cualquier solución viable.
+Este documento postula que el Protocolo de Datagramas de Usuario (UDP), en su forma sin estado de sesion verificable, 
+no deberia ser ruteable entre Sistemas Autónomos (ASes) en internet publico. 
+El argumento central no es técnico-protocolar sino estructural: UDP sin handshake previo constituye una asimetria de daño sistémica donde el costo del ataque
+es mínimo para el origen y catastrófico para el destino, violando el principio de reciprocidad que sustenta la neutralidad de red.
+El documento presenta dos líneas argumentales complementarias: (A) la posición maximalista de no-rutabilidad inter-AS de UDP crudo, 
+y (B) la posición de compromiso que exige estado de sesion verificable como condición de rutabilidad, reconociendo que protocolos como QUIC,
+WireGuard y DTLS ya cumplen con este requisito. Se argumenta que el rol de los IXPs como punto de enforcement es central en cualquier solución viable.
